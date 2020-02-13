@@ -60,9 +60,9 @@ for x in range(30):
     xaxis.append(x)
     #print(fib_times)
 
-matplotlib.pyplot.plot(xaxis, fib_times[0])
-matplotlib.pyplot.plot(xaxis, fib_times[1])
-matplotlib.pyplot.plot(xaxis, fib_times[2])
+matplotlib.pyplot.plot(xaxis, fib_times[0], label="Recursive")
+matplotlib.pyplot.plot(xaxis, fib_times[1], label="Iterative")
+matplotlib.pyplot.plot(xaxis, fib_times[2], label="Andre's Algorithm")
 matplotlib.pyplot.xlabel('Terms')
 matplotlib.pyplot.ylabel('Time')
 matplotlib.pyplot.title('Time to produce a term in a fibbonaci sequence')
