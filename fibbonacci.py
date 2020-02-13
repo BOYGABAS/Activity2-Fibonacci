@@ -43,6 +43,7 @@ def fib_3(fib,kawnter=1,lead=1,tail=0):
 
 fib_times=[[],[],[]]
 xaxis=[]
+print("\"He that can have patience can have what he will.\" - Benjamin Franklin")
 #print(fib_3())
 for x in range(30):
     x+=1
@@ -66,6 +67,7 @@ matplotlib.pyplot.plot(xaxis, fib_times[2], label="Andre's Algorithm")
 matplotlib.pyplot.xlabel('Terms')
 matplotlib.pyplot.ylabel('Time')
 matplotlib.pyplot.title('Time to produce a term in a fibbonaci sequence')
+matplotlib.pyplot.legend()
 matplotlib.pyplot.show()
 #print(fib_times[0][-1])
 '''
