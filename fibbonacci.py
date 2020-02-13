@@ -44,7 +44,7 @@ def fib_3(fib,kawnter=1,lead=1,tail=0):
 fib_times=[[],[],[]]
 xaxis=[]
 #print(fib_3())
-for x in range(100):
+for x in range(30):
     x+=1
     start=time.time()
     fib_1(x)
